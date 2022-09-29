@@ -1,0 +1,29 @@
+.footer__container{
+    position: fixed;
+    bottom:0;
+    
+    padding:5px;
+    width:100%;
+}
+
+.footer__txt{
+    margin-left: 35%;
+}
+
+.footer__horizontal{
+    border:1px solid green;
+    margin-left: 35%;
+}
+
+@media (max-width:1500px){
+    .footer__txt{
+        margin-left: 2% !important;
+        font-size: 12px !important;
+        z-index: -10 !important;
+    }
+
+    .footer__horizontal{
+        margin-left: 2% !important;
+        z-index: -10 !important;
+    }
+}

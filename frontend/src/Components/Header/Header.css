@@ -1,0 +1,53 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: #fff !important;
+    position: fixed !important;
+    z-index:10;
+}
+
+.css-1x7skt0{
+    background-color: #fff !important;
+    position: fixed !important;
+    z-index:10;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    background-color: #367E18 !important;
+    color:#fff !important;
+    border-radius: 18px !important;
+}
+
+.css-1ujsas3{
+    background-color: #367E18 !important;
+    color:#fff !important;
+    border-radius: 18px !important;
+}
+
+.css-1ujsas3:hover{
+     background-color: #647E68 !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover{
+     background-color: #647E68 !important;
+}
+
+.button__container{
+    background-color: #367E18;
+    color:#fff;
+}
+
+.button__container:hover{
+    background-color: #647E68;
+}
+
+.appbar__container{
+    background-color: #fff;
+}
+
+@media (min-width: 0px){
+.css-1futezt-MuiTypography-root,
+.css-1xjb6vl {
+    display: block !important;
+}
+
+}
+

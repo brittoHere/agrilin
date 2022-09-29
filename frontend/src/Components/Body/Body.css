@@ -1,0 +1,407 @@
+.body__container{
+    text-align: center;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top:8%;
+    
+}
+
+.table__container{
+    margin-bottom: 32%;
+}
+
+.img__card-container{
+   display: flex;
+}
+
+.img__style{
+    width:689px;
+    margin-left: auto;
+    margin-right:auto;
+    height:182px;
+    border-radius:18px
+}
+
+.card__container{
+    background-color: #fff;
+    right:2%;
+    width:363px;
+    height:182px;
+    /* left:1020px; */
+    position: absolute;
+    display: block;
+    margin-top: 8px;
+    border-radius:18px;
+}
+
+.img__span-flex{
+    display: flex;
+}
+
+.bottom__txt{
+    padding-bottom: 5%;
+}
+
+.cloud__txt{
+    font-weight: bold;
+}
+
+.header__txt-container{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.order__statistics-container{
+    margin-left:35%;
+    margin-top: 2%;
+    background-color: #fff;
+    padding:8px;
+    width:40%;
+}
+
+.order__statistics-txt{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.span__txt{
+    font-size: 16px;
+    color:gray;
+    font-weight: 600;
+}
+
+.order__statistics-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.activities__container{
+    background: #fff;
+    padding:25px;
+    right: 2%;
+    position:absolute;
+}
+
+.activities__txt{
+    font-weight: bold;
+    color:gray;
+}
+
+
+
+.circle{
+    border-radius: 50%;
+  width: 75%;
+  height: 34px;
+  padding: 10px;
+  background: #fff;
+  border: 8px solid orange;
+  color: #000;
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+.monthly__txt{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.activity__txt{
+    font-size:14px;
+    font-weight: bold;
+}
+
+.text__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total__orders{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.recieved__orders{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.order__block{
+    display:block;
+    margin-left: 8px;
+}
+
+.number__txt{
+    font-weight: bold;
+    color:gray;
+    font-size:18px;
+}
+
+.order__statistics__contents-flex{
+    margin-left:35%;
+    margin-top: 2%;
+    display:flex;
+}
+
+.active__icon-container{
+    display:block;
+    background-color: #fff;
+    width:150px;
+    height:152px;
+    text-align: center;
+    padding-top: 2%;
+    border-radius:20px;
+}
+
+.margin__left{
+    margin-left:2%;
+}
+
+.eye__icon{
+    background: #048F5D;
+    width:40px;
+    height:25px;
+    padding:8px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#fff;
+    border-radius:50%;
+}
+
+.dispute__color{
+    background-color:#FFB600;
+}
+
+.open__color{
+    background-color:#38B000;
+}
+
+.cancel__color{
+    background-color:#E84A4D;
+}
+
+.active__txt{
+    font-weight: bold;
+    font-size:14px;
+    color:#048F5D;
+    text-transform: uppercase;
+}
+
+.dispute__txt{
+    color:#FFB600;
+}
+
+.open__txt{
+    color:#38B000;
+}
+
+.cancel__text{
+    color:#E84A4D;
+}
+
+.active__heading{
+    margin-top: 16%;
+}
+
+.active__number{
+    margin-top:8%;
+}
+
+.number{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.table__container{
+    margin-top:2%;
+    margin-left: 35%;
+    background-color: #fff;
+    padding:25px;
+}
+
+.title__row{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.period__txt-container{
+    display: flex;
+}
+
+.period__txt{
+    font-size:12px;
+    color:#283D36;
+}
+
+.table__heading{
+    font-weight: bold;
+}
+
+.css-1ygcj2i-MuiTableCell-root{
+    font-weight:bold !important;
+}
+
+.css-1bigob2{
+    font-weight: bold !important;
+}
+
+.css-1sgp6db{
+    font-weight: bold !important;
+}
+
+.css-1azl6jz-MuiTableCell-root{
+    font-weight: bold !important;
+}
+
+@media (max-width:1500px){
+    .body__container{
+        padding-top: 16%;
+        overflow-y: hidden;
+    }
+
+    .reduce__width{
+        width:100% !important;
+    }
+
+    .img__card-container{
+        display: block !important;
+    }
+
+    .card__container{
+        position: relative !important;
+        z-index: -10;
+        width:95%;
+        margin-left: 4%;
+        
+    }
+
+    .css-1ygcj2i-MuiTableCell-root{
+        font-size:12px !important;
+    }
+
+    .css-1azl6jz-MuiTableCell-root{
+        font-size:12px !important;
+    }
+
+    .css-1ex1afd-MuiTableCell-root{
+        font-size: 12px !important;
+    }
+
+    .css-177gid-MuiTableCell-root{
+        font-size: 12px !important;
+    }
+
+    .css-1bigob2{
+        font-size: 12px !important;
+    }
+
+    .css-1sgp6db{
+        font-size: 12px !important;
+    }
+
+    .css-q34dxg{
+        font-size: 12px !important;
+    }
+
+    .css-1i36psw{
+        font-size: 12px !important;
+    }
+
+    .img__style{
+        width:95%;
+    }
+
+    .header__txt-container{
+        margin-left: 2% !important;
+    }
+
+    .order__statistics-flex{
+        display: block !important;
+        z-index: -10;
+        cursor: not-allowed! important;
+
+    }
+
+    .order__statistics-container{
+        margin-left: 2% !important;
+        width:75%;
+        padding:25px !important;
+        z-index:-10;
+    }
+
+    .activities__container{
+        margin-top:2%;
+        position:relative !important;
+        margin-left: 4%;
+        width:75%;
+        z-index:-10;
+    }
+
+    .table__container{
+        margin-left:2%;
+    }
+
+    .circle{
+        width:100px !important;
+    }
+
+    .order__statistics__contents-flex{
+        margin-left: 2% !important;
+    }
+
+    .active__heading{
+        margin-top: 2% !important;
+    }
+
+    .active__number{
+        margin-top:2% !important;
+        margin-bottom: 5% !important;
+    }
+}
+
+@media (max-width:991px){
+     .css-1ygcj2i-MuiTableCell-root{
+        font-size:8px !important;
+    }
+
+    .css-1azl6jz-MuiTableCell-root{
+        font-size:8px !important;
+    }
+
+    .css-1ex1afd-MuiTableCell-root{
+        font-size: 8px !important;
+    }
+
+    .css-177gid-MuiTableCell-root{
+        font-size: 8px !important;
+    }
+
+     .css-1bigob2{
+        font-size: 8px !important;
+    }
+
+    .css-1sgp6db{
+        font-size: 8px !important;
+    }
+
+    .order__statistics__contents-flex{
+        display: block !important;
+    }
+
+    .active__icon-container{
+        width:95% !important;
+        height:auto !important;
+        margin-top: 2% !important;
+    }
+
+    .css-q34dxg{
+        font-size: 8px !important;
+    }
+
+    .css-1i36psw{
+        font-size: 8px !important;
+    }
+}
